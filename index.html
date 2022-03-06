@@ -10,9 +10,12 @@
     <div id="home"></div>
     <header>
       <a href="#home"><h1>Carlos Fontanez</h1></a>
-
+      
       <nav>
         <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
           <li>
             <a href="#about-me">About</a>
           </li>
@@ -20,17 +23,20 @@
             <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#contact-me">Contact</a>
-          </li>
+            <a href="#contact">Contatct</a>
         </ul>
       </nav>
     </header>
 
-
+    
 
     <section id="about-me">
-      <h2>About</h2>
-
+      <div>
+        <h2>About</h2>
+        <picture>
+          <img style="border-radius: 50%;" src="./assets/images/my_picture.jpg">
+        </picture>
+      </div>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         Faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget.
@@ -42,7 +48,7 @@
         Congue nisi vitae suscipit tellus mauris. Id diam vel quam elementum pulvinar etiam.
         Placerat in egestas erat imperdiet sed euismod nisi porta lorem. Faucibus a pellentesque sit amet.
         Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Pulvinar elementum integer enim neque volutpat ac tincidunt vitae.
-        </p>
+      </p>
 
 
 
@@ -51,36 +57,41 @@
     <section id="projects">
         <h2>Projects</h2>
       
-        <div>
+        <div class="project-cards">
           <figure class="box-screenshot">
-            <a href="https://charliefontanez.github.io/run-buddy/" target="_blank">
-              <img src="./assets/images/run-buddy-card-2.jpg" />
-            </a>
+            <div>
+              <a href="https://charliefontanez.github.io/run-buddy/" target="_blank">
+                <img src="./assets/images/run-buddy-card-2.jpg" />
+              </a>
+            </div>
+            <div class="run-buddy">
+              <a href="https://charliefontanez.github.io/run-buddy/" target="_blank"><h3>Run Buddy</h3></a>
+            </div>
           </figure>
 
           <figure class="box-screenshot">
             <a href="https://charliefontanez.github.io/Horiseon-Refactoring/" target="_blank">
               <img src="./assets/images/Horiseon_screenshot_card.png" />
             </a>
+            <div class="horiseon">
+              <a href="https://charliefontanez.github.io/Horiseon-Refactoring/" target="_blank">
+                <h3>Horiseon<h3>
+              </a>
+            </div>
           </figure>
+
         </div>
     </section>
 
-
-    
-
-
-
-    <div .class="black-blob">
-
-    <section id="contact-me">
-      <h2>Contact Me</h2>
-      
-    </section>
+    <!-- <section id="contact-me">
+      <div class="contact">
+        <h2>Contact Me</h2>
+      </div>
+    </section> -->
 
     </div>
 
-    <footer>
+    <footer id="contact">
       <ul>
         <li>
           <a href="https://www.linkedin.com/in/carlos-fontanez/"

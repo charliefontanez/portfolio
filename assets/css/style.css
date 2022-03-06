@@ -20,6 +20,7 @@ header {
   color: white;
   position: -webkit-sticky;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   position: sticky;
@@ -121,17 +122,19 @@ picture img {
   color: #202121
 }
 
+.project-cards a h3 {
+  margin-top: 45px;
+  padding-top: 55px;
+}
+
 
 .project-cards div {
   display: flex;
+  height: auto;
+  width: auto;
   justify-content: center;
   align-items: center;
 }
-
-
-.project-cards a h3 {
-}
-
 
 .box-screenshot{
   display: block;
@@ -144,6 +147,11 @@ picture img {
   box-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 
+.box-screenshot div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 figure img {
@@ -199,14 +207,28 @@ footer img {
 
 @media screen and (max-width: 980px) {
 
-
-
   header nav ul {
     justify-content: center;
   }
 
   header nav ul li a {
     font-size: 20px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  #projects h2 {
+    font-size: 40px;
+  }
+  
+  .project-cards {
+    flex-direction: column;
+  }
+
+  .project-card h3 {
+    font-size: 35px;
   }
 
 }

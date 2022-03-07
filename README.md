@@ -7,7 +7,7 @@ A landing page to show off the work I have done.
 
 
 
-![image](/assets/images/index.jpeg)
+![image](/assets/images/portfolio.png)
 
 
 ## Link to Live Page

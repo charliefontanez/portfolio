@@ -12,8 +12,7 @@ A landing page to show off the work I have done.
 
 ## Link to Live Page
 
-
-
+https://charliefontanez.github.io/portfolio/
 
 ## Tools Used
 

@@ -19,11 +19,11 @@ header {
   background-color: rgb(0, 0, 0);
   color: white;
   position: -webkit-sticky;
+  position: sticky;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
   top: 0;
   bottom: 0;
   height: 50px;
@@ -207,6 +207,11 @@ footer img {
 
 @media screen and (max-width: 980px) {
 
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
   header nav ul {
     justify-content: center;
   }
@@ -231,5 +236,11 @@ footer img {
     font-size: 35px;
   }
 
+}
+
+@media screen and (max-width: 575px) {
+  header {
+    position: relative;
+  }
 }
   
